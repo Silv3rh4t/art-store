@@ -4,7 +4,6 @@
 
 header.masthead {
   height: 100%;
-  width: 100%;
   display: flex;
   color: var(--light);
   background: url("../img/bg.jpg");
@@ -32,10 +31,9 @@ header.masthead {
 }
 
 .intro{
-  background: url("../img/bg2.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  color: var(--light);
+  background: url("../img/bg2.jpg");
+  background-position: center;
   background-size: cover;
 }
 
