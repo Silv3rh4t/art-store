@@ -37,14 +37,14 @@ header.masthead {
   background-size: cover;
 }
 
-.product{
-  height: 100%;
-}
-
 .back-btn{
   position:fixed;
   top: 2%;
   left:2%;
+}
+
+.product{
+  width:100%;
 }
 
 .p-title{
@@ -54,6 +54,11 @@ header.masthead {
 .p-description{
   text-align: justify;
   font-size: 1rem;
+}
+
+.pay{
+  float: left;
+  min-width: 400px;
 }
 
 .amount{
